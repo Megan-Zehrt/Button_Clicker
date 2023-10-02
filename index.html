@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- NavBar-->
+    <div class="DojonaryBar">
+        <div class="DojoBarContents">
+            <div class="DojanaryWord">Dojonary</div>
+            <input class="bar searchbar" placeholder="Search..">
+            <button class="logbutton" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+
+    <!--Main Part-->
+    <div class="Main">
+        <!--Top Boxes-->
+      <div class="TopBox">
+        <!--Top Left Box-->
+        <div class="TopLeftDojo">
+            <h2 class="ninjaword">ninja</h2>
+            <div class="ninjadeftop">
+                <p class="noun">noun</p>
+                <p class="nounrighttop">A practitionar skilled in the</p>
+            </div>
+
+            <div class="ninjadeftop">
+                <p class="plural">Plural:</p>
+                <p class="italicninja">ninjs</p>
+                <p><a href="html_images.asp">Japanese</a></p>
+                <p class="linkspacing">are of</p>
+                <p><a href="html_images.asp">ninjutsu</a></p>
+            </div>
+
+            <button onclick="alert('Ninja was liked')" class="likebutton">13 Likes</button>
+
+        </div>
+        <!--Top right Box-->
+        <div class="TopRightDojo">
+            <div>
+                <p class="DojonaryAdd">Dojonary is defined by YOU</p>
+                <button class="definitionButton"  onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </div>
+      </div>
+      <!--Bottom Box-->
+      <div>
+        <div class="BottomDojo">
+            <h2 class="ninjaword">ninja</h2>
+            <div class="ninjadeftop">
+                <p class="noun">noun</p>
+                <div class="ninjadefbottom">
+                    <p>A<a class="linkspacing"  href="html_images.asp">programmer</a>who breaks problems down with <a href="html_images.asp">zen</a>-like focus</p>
+                </div>
+
+            </div>
+
+            <div class="ninjadeftop">
+                <p class="plural">Plural:</p>
+                <p class="italicninja">ninjas</p>
+            </div>
+
+            <button class="likebutton">37 Likes</button>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

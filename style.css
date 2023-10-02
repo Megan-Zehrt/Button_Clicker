@@ -1,0 +1,161 @@
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.DojonaryBar{
+    height: 90px;
+    width: 1000px;
+    background-color: lightgray;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+.DojanaryWord{
+    color: black;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.DojoBarContents{
+    display: flex;
+}
+
+.bar {
+    margin-left: 120px;
+    font-size: 20px;
+    height: 30px;
+    width: 350px;
+    margin-top: 30px;
+    margin-right: 150px;
+  }
+
+.logbutton{
+    background-color:dodgerblue;
+    height: 35px;
+    width: 80px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.Main{
+    margin-left: 250px;
+}
+
+.TopBox{
+    display:flex;
+}
+
+.TopLeftDojo{
+    border-style: solid;
+    border-color: black;
+    height: 260px;
+    width: 660px;
+    padding-left: 20px;
+}
+
+.TopRightDojo{
+    border-style: solid;
+    border-color: black;
+    height: 180px;
+    width: 240px;
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+
+.BottomDojo{
+    border-style: solid;
+    border-color: black;
+    height: 260px;
+    width: 638px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+.wordcombine{
+    display: flex;
+}
+
+.definitionButton{
+    background-color:rgb(122, 197, 122);
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px;
+}
+
+.DojonaryAdd{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ninjaword{
+    font-size: 45px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.ninjadeftop{
+    display: flex;
+    font-size: 30px;
+}
+
+.noun{
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-bottom: 5px;
+}
+
+.nounrighttop{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.ninjadeftop{
+    display: flex;
+    font-size: 25px;
+}
+
+.plural{
+    margin-right: 3px;
+    margin-top: 0px;
+}
+
+.italicninja{
+    font-style:italic;
+    margin-right: 150px;
+}
+
+.linkspacing{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.likebutton{
+    height: 40px;
+    width: 110px;
+    background-color:rgb(233, 217, 79);
+    box-shadow: 3px 3px;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.ninjadefbottom{
+    display: flex;
+    font-size: 25px;
+}
+
